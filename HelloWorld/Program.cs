@@ -109,7 +109,7 @@ Console.Write("Введите вашу группу: ");
 string group = Console.ReadLine();
 Console.Write("Введите ваш год рождения: ");
 int bithYear = int.Parse(Console.ReadLine());
-Console.Write("Введите ваш средний балл например (4.5): ");
+Console.Write("Введите ваш средний балл например (4,5): ");
 double gpa = double.Parse(Console.ReadLine());
 
 int currentYear = 2026;
