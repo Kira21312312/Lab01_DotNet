@@ -128,3 +128,48 @@ Console.WriteLine($"Статус:          {status}");
 Console.WriteLine($"Лет до 30:       {30 - age}");
 Console.WriteLine("Нажми Enter для выхода...");
 Console.ReadLine();
+
+
+
+
+
+
+
+
+string favoriteGame = "Наруто";       
+int favoriteNumber = 7;                      
+double pi = Math.PI;                        
+char favoriteLetter = 'A';                   
+Console.WriteLine($"Любимая игра: {favoriteGame}");
+Console.WriteLine($"Любимая цифра: {favoriteNumber}");
+Console.WriteLine($"Число пи: {pi}");
+Console.WriteLine($"Любимая буква: {favoriteLetter}");
+
+Console.WriteLine("I");
+Console.WriteLine("need");
+Console.WriteLine("more");
+Console.WriteLine("power!");
+
+Console.WriteLine("Hello There");
+
+int monitor = int.Parse(Console.ReadLine());
+int systemUnit = int.Parse(Console.ReadLine());
+int keyboard = int.Parse(Console.ReadLine());
+int mouse = int.Parse(Console.ReadLine());
+int onePC = monitor + systemUnit + keyboard + mouse;
+int total = onePC * 3;
+Console.WriteLine(total);
+
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+
+        // Вычисляем значение функции по формуле
+int result = 3 * (a + b) * (a + b) * (a + b) + 275 * b * b - 127 * a - 41;                                
+
+Console.WriteLine(result);
+
+Console.Write("Введите температуру в C: ");
+double c = double.Parse(Console.ReadLine());
+double fah = c * 9.0 / 5.0 + 32;
+
+ Console.WriteLine($"Температура: {fah}F");
